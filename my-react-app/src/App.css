@@ -1,0 +1,21 @@
+
+/* Define the Themetic Colors for the Project */
+:root {
+  --primary-color-a: #ffcc00;
+  --primary-color-b: #ff9900;
+  --primary-color-c: #ff6600;
+  --primary-color-d: #ff3300;
+  --primary-color-e: #ff0000;
+
+}
+
+/* 
+@import url('primary-colors.css');
+body {
+    background-color: var(--primary-color-a);
+} */
+
+body{
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 3%, rgba(255,204,0,1) 6%, rgba(255,153,0,1) 9%, rgba(255,102,0,1) 12%, rgba(255,51,0,1) 15%, rgba(255,0,0,0.6896008403361344) 20%, rgba(255,0,0,0.7456232492997199) 80%, rgba(255,51,0,1) 85%, rgba(255,102,0,1) 88%, rgba(255,153,0,1) 91%, rgba(255,204,0,1) 94%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
+}
