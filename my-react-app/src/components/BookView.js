@@ -4,9 +4,19 @@ import "../css/BookView.css";
 
 const BookView = ()=> {
     return(
-        <div>
-            sa
-        </div>
+        <>
+        <div className="trapezoid"></div>
+        <div className="trapezoid"></div>
+        <div className="trapezoid"></div>
+        <div className="trapezoid"></div>
+
+
+
+        <div className="trapezoid"></div>
+        <div className="trapezoid"></div>
+        <div className="trapezoid"></div>
+        <div className="trapezoid"></div>
+        </>
     )
 }
 

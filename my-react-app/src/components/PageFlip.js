@@ -3,7 +3,7 @@ import HTMLFlipBook from "react-pageflip";
 import '../css/PageFlip.css';
 import Page  from './Page';
 import PageCover from "./PageCover";
-import FrontPage from "./IntroPage";
+import FrontPage from "./FrontPage";
 import EndPage from "./EndPage"
 
 
@@ -23,13 +23,8 @@ class PageFlip extends React.Component {
       pageNum++;
       if (pageNum > 8) pageNum = 1;
       pages.push(
-        <Page key={i + 1} image={pageNum + ".jpg"} number={i + 1}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In cursus
-          mollis nibh, non convallis ex convallis eu. Suspendisse potenti.
-          Aenean vitae pellentesque erat. Integer non tristique quam.
-          Suspendisse rutrum, augue ac sollicitudin mollis, eros velit viverra
-          metus, a venenatis tellus tellus id magna. Aliquam ac nulla rhoncus,
-          accumsan eros sed, viverra enim.
+        <Page key={i + 1} image={pageNum + ".jpg"} number={i + 1} content="Hello pratik">
+          
         </Page>
       );
     }
@@ -58,7 +53,7 @@ class PageFlip extends React.Component {
         <div className="container-md">
           <HTMLFlipBook
             width={450}
-            height={500}
+            height={550}
             size="stretch"
             minWidth={300}
             maxWidth={1000}

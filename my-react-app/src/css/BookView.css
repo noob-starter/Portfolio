@@ -1,0 +1,67 @@
+@import url('../App.css');
+
+.trapezoid {
+    position: absolute;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    width: 40%;
+    height: 60%;
+    top: 20%;
+    box-shadow: 0 10px 0 0  rgba(255, 255, 255, 1);
+}
+
+
+/* bottom book design  */
+.trapezoid:nth-child(3) {
+    border-bottom: 200px solid var(--primary-color-a);
+    transform: rotate(90deg);
+    left: -6%;
+
+}
+
+.trapezoid:nth-child(4) {
+    border-bottom: 200px solid var(--primary-color-b);
+    transform: rotate(90deg);
+    left: -2%;
+
+}
+
+.trapezoid:nth-child(5) {
+    border-bottom: 200px solid var(--primary-color-c);
+    transform: rotate(90deg);
+    left: 2%;
+}
+
+.trapezoid:nth-child(6) {
+    border-bottom: 200px solid var(--primary-color-d);
+    transform: rotate(90deg);
+    left: 6%;
+}
+
+
+
+/* Top book design  */
+
+.trapezoid:nth-child(7) {
+    border-bottom: 200px solid var(--primary-color-a);
+    transform: rotate(270deg);
+    right: -6%;
+}
+
+.trapezoid:nth-child(8) {
+    border-bottom: 200px solid var(--primary-color-b);
+    transform: rotate(270deg);
+    right: -2%;
+}
+
+.trapezoid:nth-child(9) {
+    border-bottom: 200px solid var(--primary-color-c);
+    transform: rotate(270deg);
+    right: 2%;
+}
+
+.trapezoid:nth-child(10) {
+    border-bottom: 200px solid var(--primary-color-d);
+    transform: rotate(270deg);
+    right: 6%;
+}

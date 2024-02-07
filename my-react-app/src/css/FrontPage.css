@@ -1,0 +1,39 @@
+  .front {
+      position: relative;
+  }
+
+  .front .image1,
+  .image2,
+  .image3 {
+      position: absolute;
+      margin-left: -5%;
+      width: 110%;
+      height: auto;
+      object-fit: contain;
+  }
+
+  .image1 {
+      margin-top: 70%;
+      z-index: 10;
+  }
+
+  .image2 {
+      margin-top: 80%;
+      z-index: 9;
+  }
+
+  .image3 {
+      width: 70%;
+      margin-left: 30%;
+  }
+
+  .front .front_title {
+      color: black;
+      text-align: center;
+      text-justify: auto;
+      text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+      font-weight: 1000;
+      margin-top: 10%;
+      font-size: 30px;
+      width: 1%;
+  }

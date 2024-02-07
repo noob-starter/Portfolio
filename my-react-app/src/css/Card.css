@@ -1,0 +1,32 @@
+.card-front {
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+  }
+  .card-back {
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+  }
+  .card-button {
+    border: none;
+    background-color:bisque;
+    width: 60px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: 600;
+  }
