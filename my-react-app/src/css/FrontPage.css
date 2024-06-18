@@ -1,5 +1,12 @@
-  .front {
+  .front, .back {
       position: relative;
+  }
+
+  .back div{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .front .image1,
@@ -13,7 +20,7 @@
   }
 
   .image1 {
-      margin-top: 70%;
+      margin-top: 52%;
       z-index: 10;
   }
 
@@ -24,10 +31,11 @@
 
   .image3 {
       width: 70%;
-      margin-left: 30%;
+      margin-left: 40%;
+      filter: drop-shadow(10px 10px 20px rgba(224, 115, 6, 0.959));
   }
 
-  .front .front_title {
+  .front .front_title, .back .back_title, .back .content {
       color: black;
       text-align: center;
       text-justify: auto;
@@ -37,3 +45,26 @@
       font-size: 30px;
       width: 1%;
   }
+
+  .back .back_title, .back .content{
+    font-size: 2rem;
+    width: auto;
+    text-align: justify;
+  }
+
+  .back .content{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .icon-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 50px; 
+}
+
+.icon-container i {
+    font-size: 2rem; 
+    color: #333; 
+    text-align: center;
+}

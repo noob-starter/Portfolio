@@ -15,14 +15,14 @@
 .trapezoid:nth-child(3) {
     border-bottom: 200px solid var(--primary-color-a);
     transform: rotate(90deg);
-    left: -6%;
+    left: -8%;
 
 }
 
 .trapezoid:nth-child(4) {
     border-bottom: 200px solid var(--primary-color-b);
     transform: rotate(90deg);
-    left: -2%;
+    left: -3%;
 
 }
 
@@ -45,13 +45,13 @@
 .trapezoid:nth-child(7) {
     border-bottom: 200px solid var(--primary-color-a);
     transform: rotate(270deg);
-    right: -6%;
+    right: -8%;
 }
 
 .trapezoid:nth-child(8) {
     border-bottom: 200px solid var(--primary-color-b);
     transform: rotate(270deg);
-    right: -2%;
+    right: -3%;
 }
 
 .trapezoid:nth-child(9) {
@@ -65,3 +65,9 @@
     transform: rotate(270deg);
     right: 6%;
 }
+
+@media only screen and (max-width: 1200px) {
+    .trapezoid {
+      display: none;
+    }
+  }

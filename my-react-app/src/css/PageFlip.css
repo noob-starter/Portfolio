@@ -110,10 +110,20 @@
 
 
 
-  .chapter{
+  .chapter div{
     position: relative;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    top: 60%;
   }
+  .chapter div:nth-child(even){
+    font-size: 2.5rem;
+  }
+
   .chapter-cards{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 

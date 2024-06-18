@@ -52,20 +52,22 @@ class PageFlip extends React.Component {
       >
         <div className="container-md">
           <HTMLFlipBook
-            width={450}
-            height={550}
+            width={500}
+            height={500}
             size="stretch"
             minWidth={300}
-            maxWidth={1000}
+            maxWidth={800}
             minHeight={400}
-            maxHeight={1500}
+            maxHeight={1000}
             maxShadowOpacity={0.5}
             showCover={true}
             mobileScrollSupport={true}
             className="flip-book html-book demo-book"
             style={{
               backgroundImage:
-                "url(front.jpg)"
+                "url(back.png)",
+                backgroundSize: "100%",
+                backgroundRepeat: "no-repeat",
             }}
             ref={(el) => (this.flipBook = el)}
           >
